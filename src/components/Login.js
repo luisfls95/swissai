@@ -2,7 +2,7 @@ import { useState, createContext, useContext} from "react"
 import { getToken, proxyRequest } from "./Functions"
 import { Link, useNavigate } from "react-router-dom";
 import React from "react";
-import logo2 from '../images/logo2.png'
+import logo3 from '../images/logo3.svg'
 import logo from '../images/logo.png'
 
 
@@ -128,7 +128,7 @@ const Login = (props) => {
               <div className="text-center">
                   <img
                     className="mx-auto w-64"
-                    src={logo2}
+                    src={logo3}
                     alt="logo"
                   />
                   <br/>
